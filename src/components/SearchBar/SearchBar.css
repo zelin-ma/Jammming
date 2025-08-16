@@ -1,0 +1,33 @@
+/* App.css 或 SearchBar.css */
+.Searchbar-Input{
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  outline: none;
+  height: 40px;
+}
+
+input:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+}
+
+.Searchbar-container{
+    margin: 5rem auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center; /* ⬅️ 居中对齐 */
+    align-items: center;      /* ⬆️ 垂直对齐（防止按钮/输入框不齐） */
+    gap: 7rem;           
+}
+.Search-Button{
+    padding: 14px 20px;
+    font-size: 28px;
+    background-color: rgb(92, 11, 92);
+    color: white;
+}

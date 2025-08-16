@@ -1,0 +1,7 @@
+.Playlist-container{
+    min-width: 500px;
+    border: 1px dashed #aaa;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
